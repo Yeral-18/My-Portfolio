@@ -1,0 +1,190 @@
+.about-me {
+  display: flex;
+  min-height: 600px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  background-color: #330055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%23370059' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233a005c' cx='50' cy='100' r='50'/%3E%3Cg fill='%233e0160' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23420163' cx='50' cy='200' r='50'/%3E%3Cg fill='%23460167' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a016a' cx='50' cy='300' r='50'/%3E%3Cg fill='%234e016e' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23520271' cx='50' cy='400' r='50'/%3E%3Cg fill='%23560275' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%235a0278' cx='50' cy='500' r='50'/%3E%3Cg fill='%235e027c' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2363027f' cx='50' cy='600' r='50'/%3E%3Cg fill='%23670283' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b0286' cx='50' cy='700' r='50'/%3E%3Cg fill='%236f028a' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2374028d' cx='50' cy='800' r='50'/%3E%3Cg fill='%23780191' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%237d0194' cx='50' cy='900' r='50'/%3E%3Cg fill='%23810198' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2386009B' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  border-radius: 0 0 40% 40%;
+  opacity: 0;
+  }
+  
+.about-me h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+    -webkit-text-stroke: .5px #333;
+}
+
+.about-me h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #c7c6c6;
+
+  /* -webkit-text-stroke: .5px #333; */
+}
+.container-video{
+  width: 30em;
+  height: 30em;
+  overflow: hidden;
+  border: solid 10px rgb(253, 255, 137);
+  border-radius: 50%;
+  background-color: #1A002C;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231A002C' cx='50' cy='0' r='50'/%3E%3Cg fill='%231c022f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e0433' cx='50' cy='100' r='50'/%3E%3Cg fill='%23210636' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2324073a' cx='50' cy='200' r='50'/%3E%3Cg fill='%2327073d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b0740' cx='50' cy='300' r='50'/%3E%3Cg fill='%232e0844' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23310847' cx='50' cy='400' r='50'/%3E%3Cg fill='%2335084b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2339084e' cx='50' cy='500' r='50'/%3E%3Cg fill='%233c0851' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23400855' cx='50' cy='600' r='50'/%3E%3Cg fill='%23440758' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2348075b' cx='50' cy='700' r='50'/%3E%3Cg fill='%234c065f' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500562' cx='50' cy='800' r='50'/%3E%3Cg fill='%23540465' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23580369' cx='50' cy='900' r='50'/%3E%3Cg fill='%235d026c' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2361006F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  }
+  .about-me--container{
+    width: 50em;
+  }
+
+.video-presentation{
+  width: 25em;
+}
+
+.about-me--texto{
+  margin-top: 40px;
+  font-size: 27px;
+  color: #fff;
+}
+  
+
+
+@media only screen and (max-width: 1150px) {
+  .container-video{
+    width: 32em;
+    height: 24em;
+  }
+
+  .video-presentation{
+    width: 20em;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  .about-me h2 {
+    font-size: 40px;
+  }
+  
+  .about-me h3 {
+    font-size: 25px;
+  }
+
+  .container-video{
+    width: 36em;
+    height: 24em;
+  }
+
+  .video-presentation{
+    width: 20em;
+  }
+
+  .about-me--texto{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .container-video{
+    width: 37em;
+    height: 21em;
+  }
+
+  .video-presentation{
+    width: 18em;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me h2 {
+    font-size: 30px;
+  }
+  
+
+  .container-video{
+    width: 18em;
+    height: 18em;
+
+  }
+
+  .video-presentation{
+    width: 17em;
+  }
+
+  .about-me--texto{
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+
+  .about-me--container{
+    width: 40em;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .about-me {
+    width: 29.7em;
+  }
+
+  .about-me h2 {
+    font-size: 25px;
+  }
+
+  .about-me h3 {
+    font-size: 20px;
+  }
+
+  
+  .about-me--container{
+    width: 30em;
+  }
+
+  .container-video{
+    width: 18em;
+    height: 18em;
+
+  }
+
+  .video-presentation{
+    width: 17em;
+  }
+
+  .about-me--texto{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-video{
+    width: 15em;
+    height: 15em;
+
+  }
+
+  .video-presentation{
+    width: 13em;
+  }
+}
+
+
+
